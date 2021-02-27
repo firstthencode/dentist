@@ -16,6 +16,15 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+/* body {
+    padding: 10px 0;
+    background: #f3f2f2;
+}
+.bgcolor {
+    max-width: 1250px;
+    margin: auto;
+    background: #ffffff;
+} */
 
 .slider {
     width: 100%;
@@ -71,7 +80,7 @@ nav ul li:first-child {
 }
 .our-services-title .titletext {
     color: #11c911;
-    margin-bottom:15px ;
+    margin-bottom: 15px;
     text-align: center;
     font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -143,7 +152,7 @@ nav ul li:first-child {
 
 .doctor .photo {
     width: 23.2%;
-    height: 150px;
+    height: 200px;
     background: red;
 }
 .doctor {
@@ -151,6 +160,6 @@ nav ul li:first-child {
 }
 .doctor .about-doctor {
     width: 75%;
-    height: 150px;
+    height: 200px;
     background: #0E3C5D;
 }
