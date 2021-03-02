@@ -3,7 +3,18 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.phonenumber {
+    padding: 10px 5px;
+    color: white;
+    font-size: 20px;
+    background: #11c911;
+    text-align: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.call {
+    text-decoration: none;
+    color: white;
+}
 .container {
     max-width: 1250px;
     width: 100%;
@@ -15,6 +26,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 25px;
+}
+title {
+    text-transform: capitalize;
+}
+.logo {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #11c911;
+}
+
+.logo span {
+    color: #0E3C5D;
+}
+
+.logo a {
+    color: #11c911;
+    text-decoration: none;
 }
 /* body {
     padding: 10px 0;
@@ -39,6 +72,7 @@ nav ul {
     display: flex;
     list-style: none;
 }
+
 
 nav ul li {
     margin-left: 10px;
@@ -73,6 +107,14 @@ nav ul li:first-child {
     
 } */
 
+.ost {
+    border: 1px solid #11c911;
+    width: 300px;
+    border-radius: 5px;
+    height: 57px;
+    margin: auto;
+    margin-bottom: 5px;
+}
 .our-services {
     display: flex;
     flex-direction: column;
@@ -96,13 +138,17 @@ nav ul li:first-child {
 .service-block {
     text-align: center;
     width: 23.2%;
-    height: 530px;
+    height: auto;
     border: white solid 1px;
     transition: 0.5s;
     background: #11c911;
     color: black;
-
 }
+
+.service-block p {
+    padding: 10px;
+}
+
 
 .service-block:hover {
     background-color: #0E3C5D;
